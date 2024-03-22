@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Ellis Ollier | Personal Portfolio</title>
+        <script src="./js/script.js"></script>
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    </head>
+
+    <body>
+        <button onclick="returnToTop()" id="btnBackToTop" title="Back to Top">Back to Top</button>
+        <div class="header">
+            <div class="title">
+                <h1>ELLIS OLLIER</h1>
+                <h2>PERSONAL PORTFOLIO</h2>
+            </div>
+            
+            <ul class="links">
+                <a href="#aboutme"><li>About me</li></a>
+                <a href="#projects"><li>Projects</li></a>
+                <a href="#skills"><li>Skills</li></a>
+                <a href="#contactme"><li>Contact me</li></a>
+            </ul>
+        </div>
+        <div id="aboutme" class="aboutme">
+            <div class="info">
+                <h1>Welcome to my Portfolio</h1>
+                <p>
+                    My name is Ellis and I am from the United Kingdom. 
+                    I am currently applying to go to university and would love 
+                    to embark on a successful career as a software engineer
+                </p>
+            </div>
+            <img src="./imgs/programmer-desk.jpg" alt="Programmer sat a desk">
+        </div>
+        <div id="projects" class="projects">
+            <h1>My Projects</h1>
+            <div class="row">
+                <div class="column">
+                  <div class="card project-one">
+                    <h3>Employee Overview System</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam possimus suscipit iure sint obcaecati ipsum quod nostrum. Praesentium sint quidem consectetur dolorum nihil quaerat officiis. Sapiente aliquid distinctio animi officiis.</p>
+                    <a href="https://github.com/EllisOllier" target="_blank" class="fa fa-github"></a>
+                  </div>
+                </div>
+              
+                <div class="column">
+                  <div class="card project-two">
+                    <h3>Anti-Virus Software</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam reprehenderit blanditiis ea asperiores quaerat, pariatur atque. Nobis blanditiis aliquam expedita corporis nemo quia molestias perferendis sequi, voluptates commodi vitae vero?</p>
+                    <a href="https://github.com/EllisOllier" target="_blank" class="fa fa-github"></a>
+                  </div>
+                </div>
+                
+                <div class="column">
+                  <div class="card project-three">
+                    <h3>Twitter Clone</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis delectus adipisci labore obcaecati enim ex iusto placeat id fugit, odio magnam incidunt libero quidem ad voluptates blanditiis consequatur sit corporis.</p>
+                    <a href="https://github.com/EllisOllier" target="_blank" class="fa fa-github"></a>
+                  </div>
+                </div>
+                
+                <div class="column">
+                  <div class="card project-four">
+                    <h3>Instagram Clone</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos cumque id praesentium maxime reiciendis magnam perspiciatis suscipit odio fugit vel numquam repellat incidunt, velit amet adipisci? Laboriosam ducimus necessitatibus omnis!</p>
+                    <a href="https://github.com/EllisOllier" target="_blank" class="fa fa-github"></a>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div id="skills" class="skills">
+            <h1>Skills</h1>
+            <div class="skill-list">
+                <h2>HTML/ CSS</h2>
+                <progress value="60" max="100">60%</progress>
+                <h2>JavaScript</h2>
+                <progress value="10" max="100">10%</progress>
+                <h2>C#</h2>
+                <progress value="35" max="100">35%</progress>
+                <h2>Python</h2>
+                <progress value="50" max="100">50%</progress>
+            </div>
+        </div>
+        <div id="contactme" class="contactme">
+            <h1>Got a Question?</h1>
+            <div class="contact-container">
+                <form>
+                    <label for="name">Name: <input id="name" type="text"/></label>
+                    <label for="email">Email: <input id="email" type="email"/></label>
+                    <label for="phonenumber">Phone Number: <input id="phonenumber" type="tel"/></label>
+                    <label for="message">Message: </label>
+                    <textarea id="message" rows="5" cols="50" placeholder="Enter a message"></textarea>
+                    <input id="btnSubmit" type="submit" value="Submit"/>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

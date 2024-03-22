@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+
+/* Font Awesome Icons */
+.fa-github {
+    color: black;
+}
+
+/* Header */
+.header {
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    min-width: 300px;
+    background-color: #FFFFFF;
+    border-top: 3px solid #DF4C73;
+    border-bottom: 3px solid #E2F0F9;
+}
+
+.header h2{
+    font-size: 12px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+}
+
+li {
+    list-style-type: none;
+    color: black;
+}
+
+.links {
+    display: flex;
+    width: 60%;
+    gap: 25px;
+    justify-content: center;
+    align-self: center;
+    margin-left: auto;
+}
+
+/* About me */
+.aboutme {
+    padding-left: 100px;
+    padding-top: 50px;
+    height: 90vh;
+    display: flex;
+    border-bottom: 5px solid #286FB4;
+}
+
+.info  {
+    width: 250px;
+    min-width: 250px;
+}
+
+.aboutme p{
+    padding-top: 15px;
+}
+
+.aboutme img {
+    margin-left: auto;
+    max-width: 50vw;
+    max-height: 50vh;
+    align-self: flex-end;
+}
+
+/* Projects */
+.projects {
+    height: 100vh;
+    background-color: #E2F0F9;
+    border-bottom: 5px solid #DF4C73;
+}
+
+.projects h1{
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+.row {
+    margin: 75px 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+    padding: 16px;
+    height: 75vh;
+    text-align: center;
+    background-color: #B0DDE4;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.card a {
+    margin-top: auto;
+}
+
+.card p {
+    margin-top: 5vh;
+}
+
+/* Skills */
+.skills {
+    background-color: #286FB4;
+    color: #D4D4D4;
+    border-bottom: 5px solid #DF4C73;
+}
+
+.skills h1 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.skill-list {
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    margin-left: calc(50% - 250px);
+}
+
+progress {
+    -webkit-appearance: none;
+}
+
+::-webkit-progress-bar {
+    background-color: #D4D4D4;
+    border-radius: 6px;
+    width: 500px;
+}
+
+::-webkit-progress-value {
+    background-color: #DF4C73;
+    border-radius: 6px;
+}
+
+.contactme {
+    height: 35vh;
+    background-color: #E2F0F9;
+    padding-left: 5vw;
+    border-bottom: 5px solid #DF4C73;
+}
+
+.contactme label {
+    display: block;
+}
+
+ .contact-container {
+    padding-top: 5vh;
+ }
+
+.contactme h1 {
+    padding-top: 2vh;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 325px;
+}
+
+#btnBackToTop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #DF4C73;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#btnBackToTop:hover {
+    background-color: #d96f8b;
+}
+
+#btnSubmit {
+    background-color: #DF4C73;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 3px;
+}
