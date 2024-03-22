@@ -1,1 +1,1 @@
-My first project which has been created purely by me with no influcence of youtube videos or courses
+A personal portfolio project which was written purely by me with no influcence of youtube videos or courses.
